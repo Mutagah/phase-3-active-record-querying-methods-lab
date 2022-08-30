@@ -1,3 +1,4 @@
+# Built in methods that come with Active Record <.maximum, .minimum, .where, .sum>
 class Show < ActiveRecord::Base
     def self.highest_rating
         self.maximum(:rating)
